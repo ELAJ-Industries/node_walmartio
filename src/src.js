@@ -3,10 +3,10 @@ const crypto = require('crypto');
 
 
 let details = {
-    consumerId: "",
-    keyVersion:"",
-    privateKey: ``,
-    passPhrase:""
+    consumerId: process.env.WALMART_CLIENT,
+    keyVersion: process.env.WALMART_VERSION,
+    privateKey: process.env.PRIVATE_KEY,
+    passPhrase: process.env.PASS_PHRASE,
 }
 
 
